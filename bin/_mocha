@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+/*
+ * fake-mocha
+ * Copyright (c) 2015 TechnologyAdvice
+ */
+
+var cp = require('child_process');
+var path = require('path');
+var projectRoot = path.resolve(__dirname + '/../../..');
+
+// Capture the --command argument
+var cmdNext = false;
+var cmd;
+for (var i = 0; i < process.argv.length; i++) {
+  if (cmdNext) {
+    cmd = process.argv[i];
+    break;
+  } else if (process.argv[i] === '--command') {
+    cmdNext = true;
+  }
+}
+
+// Fail if no --command was found
+if (!cmd) {
+  throw new Error('No command specified with --command argument');
+}
+
+// Execute the command
+cmd = cmd.split(/\s+/);
+var child = cp.spawn(cmd[0], cmd.slice(1), {
+  cwd: projectRoot,
+  stdio: 'inherit'
+});
+
+child.on('err', function(err) {
+  console.error(err);
+  process.exit(err.code || 1);
+});
+
+child.on('exit', function(code) {
+  process.exit(code);
+});

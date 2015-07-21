@@ -1,0 +1,31 @@
+{
+  "name": "fake-mocha",
+  "version": "0.1.0",
+  "description": "Run arbitrary commands instead of mocha to integrate with popular IDEs",
+  "main": "bin/_mocha",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnologyAdvice/fake-mocha.git"
+  },
+  "keywords": [
+    "fake",
+    "mocha",
+    "jetbrains",
+    "webstorm",
+    "intellij",
+    "phpstorm",
+    "pycharm"
+  ],
+  "author": "TechnologyAdvice <devteam@technologyadvice.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TechnologyAdvice/fake-mocha/issues"
+  },
+  "homepage": "https://github.com/TechnologyAdvice/fake-mocha#readme",
+  "devDependencies": {
+    "eslint": "^0.24.1"
+  }
+}
