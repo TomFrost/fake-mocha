@@ -1,4 +1,6 @@
 # fake-mocha
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/TechnologyAdvice/fake-mocha.svg)](https://greenkeeper.io/)
 Run arbitrary commands instead of mocha to integrate with popular IDEs
 
 ## Install
