@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/TechnologyAdvice/fake-mocha#readme",
   "devDependencies": {
-    "eslint": "^0.24.1"
+    "eslint": "^3.16.1"
   }
 }
