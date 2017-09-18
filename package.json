@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechnologyAdvice/fake-mocha.git"
+    "url": "git+https://github.com/TomFrost/fake-mocha.git"
   },
   "keywords": [
     "fake",
@@ -19,12 +19,12 @@
     "phpstorm",
     "pycharm"
   ],
-  "author": "TechnologyAdvice <devteam@technologyadvice.com>",
+  "author": "Tom Shawver <tom@frosteddesign.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechnologyAdvice/fake-mocha/issues"
+    "url": "https://github.com/TomFrost/fake-mocha/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/fake-mocha#readme",
+  "homepage": "https://github.com/TomFrost/fake-mocha#readme",
   "devDependencies": {
     "eslint": "^0.24.1"
   }

@@ -2,7 +2,7 @@
 # Example Makefile for fake-mocha using Docker
 # Pass [--command "make test"] to fake-mocha to use.
 #
-# Copyright (c) 2015 TechnologyAdvice
+# Copyright (c) 2017 Tom Shawver
 #
 
 DIR = $(shell pwd)

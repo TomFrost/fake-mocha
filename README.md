@@ -42,5 +42,5 @@ fake-mocha is licensed under the MIT license. Please see `LICENSE.txt` for full
 details.
 
 ## Credits
-fake-mocha was created in a flurry of frustration at
-[TechnologyAdvice](http://technologyadvice.com).
+fake-mocha was originally created at [TechnologyAdvice](http://technologyadvice.com) in Nashville, TN.
+
